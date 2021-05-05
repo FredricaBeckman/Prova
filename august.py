@@ -5,32 +5,24 @@ print("hej hopp")
 print("hej hopp två")
 
 print("Jag är supertaggad på detta arbetet!!!!")
-import turtle 
+
 
 
 print("Plugghästen for president")
-t=turtle.Turtle()
-t.speed(10)
 
+import turtle 
+
+t = turtle.Turtle()
 
 t.left(90)
-t.color("saddle brown")
 t.pensize(5)
+t.pencolor("brown")
 t.forward(200)
-t.right(90)
-t.color("red")
-t.fillcolor("red")
-t.begin_fill()
-t.circle(50)
-t.end_fill()
-t.penup()
-t.goto(0,250)
-t.pendown()
-t.color("white")
-
-for i in range(55):
-    t.forward(i/4)
-    t.left(15)
-
+t.pencolor("red")
+t.dot(100)
+t.pencolor("white")
+for x in range(50):
+    t.forward((1+x)/2)
+    t.left(30)
 
 turtle.done()
