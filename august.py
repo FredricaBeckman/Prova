@@ -26,3 +26,5 @@ for x in range(50):
     t.left(30)
 
 turtle.done()
+
+print("Klubba är gott")
